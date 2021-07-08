@@ -188,9 +188,9 @@ r.reorder("XZY");
 
    
     el.addEventListener('abuttondown', function (evt) {   
-      var pa = document.querySelector(evt.srcElement.components.proxycontroller.data.target);
-      var name=  pa.getAttribute('id');
-        speechSynthesis.speak(new SpeechSynthesisUtterance(name));
+     // var pa = document.querySelector(evt.srcElement.components.proxycontroller.data.target);
+     // var name=  pa.getAttribute('id');
+        speechSynthesis.speak(new SpeechSynthesisUtterance("What kind of Game is this?"));
     });
 
    
