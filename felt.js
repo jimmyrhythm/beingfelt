@@ -187,6 +187,12 @@ r.reorder("XZY");
     });
 
    
+    el.addEventListener('abuttondown', function (evt) {
+       var nametag = document.querySelector(evt.srcElement.components.proxycontroller.data.target+" .nametag");
+        speechSynthesis.speak(new SpeechSynthesisUtterance(nametag));
+    });
+
+   
 
     el.addEventListener('triggerchanged', function (evt){
   ///    console.log(evt);
