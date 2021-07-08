@@ -187,9 +187,9 @@ r.reorder("XZY");
     });
 
    
-    el.addEventListener('abuttondown', function (evt) {
-       var nametag = document.querySelector(evt.srcElement.components.proxycontroller.data.target+" .nametag");
-        speechSynthesis.speak(new SpeechSynthesisUtterance(nametag));
+    el.addEventListener('abuttondown', function (evt) {    var el = this.el;
+      var name=  el.getAttribute('id');
+        speechSynthesis.speak(new SpeechSynthesisUtterance(name));
     });
 
    
