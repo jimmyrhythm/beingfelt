@@ -1,6 +1,6 @@
 # Being Felt
 VR Puppet Art Sandbox using Aframe for WebXR support.
-
+![Some VR puppets](https://repository-images.githubusercontent.com/359958914/0db4d680-a603-11eb-97aa-51bc376e11b5)
 [Live Demo](https://jimmyrhythm.github.io/beingfelt/)
 
 Known Issues:
